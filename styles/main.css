@@ -1,0 +1,60 @@
+@import url("./normalize.css");
+@import url("fonts.css");
+
+:root {
+    --main-color: #6A24FE;
+}
+
+* {
+    font-family: "Manrope", sans-serif;
+}
+
+.wrapper {
+    padding: 0 160px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    background-color: var(--main-color);
+    padding: 20px 60px;
+    border-radius: 10px;
+
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.header {
+    background-color: var(--main-color);
+    padding: 10px 0;
+}
+
+.header__container {
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 65px;
+    height: 65px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 164px;
+}
+
+.header__nav__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка резюме</title>
+    <link rel="stylesheet" href="../styles/pages/upload_resume.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__container">
+                <img src="../img/logo_lab.svg" class="header__logo" alt="Логотип" height="98">
+                <nav class="header__nav">
+                    <a class="header__nav__link" href="./vacancy.html">вакансии</a>
+                    <a class="header__nav__link" href="./upload_resume.html">загрузка резюме</a>
+                    <a class="header__nav__link" href="./sort_resume.html">просмотр резюме</a>
+                </nav>
+                <img src="../img/logo_svt.svg" class="header__logo" alt="Логотип Святогора">
+            </div>
+        </div>
+    </header>
+
+    
+    
+    <main class="main">
+    
+        <div class="wrapper">
+                
+            <img src="../img/apple-touch-icon.png" alt="Папка" height="115" class="main__img">
+
+           
+            <div class="main__text"> 
+            <h1 class="main__text__heading">Загрузка файлов</h1>
+            <p class="main__text__contend"><br>Перетащите файл сюда 
+                <br>или нажмите, чтобы загрузить</p>
+            </div>
+            
+        
+            </div>
+    
+            
+            <form action="http://127.0.0.1:80/resume/upload" method="post"> 
+                <input type="file" name="file" value="Выберите файл">
+                <input type="submit" value="загрузить" class="button__text"> 
+            </form>
+        </main>
+    
+</body>
+</html>
