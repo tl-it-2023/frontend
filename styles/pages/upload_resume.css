@@ -1,35 +1,58 @@
 @import url("../main.css");
 
-.main {
-
+.main__container{
+    margin-top: 100px;
 }
 
-.wrapper {
-
-
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
 }
 
-.main__img {
-
+.form > div{
+    display: flex;
+    align-items: center;
+    padding: 200px 100px;
+    background-color: #ECECEC;
+    border-radius: 10px;
 }
 
-.main__text {
-
+.form__img {
+    height: 110px;
+    width: 110px;
 }
 
-.main__text__heading {
-
+.form input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .4s ease-in-out;
 }
 
-.main__text__contend {
+input[type=file]::file-selector-button:hover {
+    background: #4800ff;
+  }
 
-
+.form__submit {
+    border: none;
 }
 
-.button {
-    
+.popup {
+    margin-top: 10px;
+    display: block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    transition: opacity 0.3s;
 }
-.button__text {
 
-   
+.popup.hidden {
+    opacity: 0;
 }
