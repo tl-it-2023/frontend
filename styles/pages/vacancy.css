@@ -1,1 +1,156 @@
 @import url("../main.css");
+
+.main{
+
+}
+
+
+.main-container {
+    width: 1594px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    height: 825px;
+}
+
+.main-text {
+    margin-bottom: 30;
+}
+
+.main-text p {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: normal;
+    color: #000;
+    padding-left: 40px;
+
+    
+}
+
+.main-content2 {
+   width: 1084px;
+   height: 710px;
+   border-radius: 10px;
+   background: #ECECEC;
+
+}
+
+.main-header {
+    margin-top: 0;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: normal;
+    border-radius: 10px;
+    background: #6A24FE;
+    padding-left: 45px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+   
+
+   
+
+
+    
+
+}
+
+.main-content {
+    width: 402px;
+    background:#ECECEC;
+    border-radius: 10px;
+    height: 710px;
+}
+
+
+.main-main {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: normal;
+    color: #FFF;
+    border-radius: 10px;
+    background: #6A24FE;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 285px;
+    padding-right: 285px;
+
+    
+
+}
+
+
+.main-text2 p {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: normal;
+    color: #000;
+    padding-left: 40px;
+}
+
+.main-text2 {
+    margin-bottom: 37px;
+}
+
+
+.input {
+  margin-left: 56px;
+  height: 50px;
+  width: 350px;
+  font-size: 35px;
+}
+
+.input2 {
+    margin-left: 128px;
+    height: 50px;
+    width: 350px;
+    font-size: 35px;
+}
+
+
+.input3 {
+    width: 350px;
+    height: 50px;
+    margin-left:  420px;
+    font-size: 35px;
+}
+
+
+.input4 {
+    width: 350px;
+    height: 50px;
+    margin-left: 263px;
+    font-size: 35px;
+}
+
+
+.input5 {
+    width: 350px;
+    height: 50px;
+    margin-left: 273px;
+    font-size: 35px;
+}
+
+.button {
+    margin-left: 350px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;
+    color: #FFF;
+    border-radius: 10px;
+    background: #6A24FE;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-decoration: none;
+
+
+}
+
+.button:hover {
+    color:  blueviolet;
+}
