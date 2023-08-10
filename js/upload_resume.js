@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         const formData = new FormData(form);
-
         try {
             const url = apiUrl + "/resume/upload";
             const response = await fetch(url, {
