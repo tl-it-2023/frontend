@@ -14,7 +14,7 @@
 .form > div{
     display: flex;
     align-items: center;
-    padding: 200px 100px;
+    padding: 50px 100px;
     background-color: #ECECEC;
     border-radius: 10px;
 }

@@ -1,1 +1,25 @@
 @import url("../main.css");
+
+.main__title {
+    text-align: center;
+}
+
+.main__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__list__elem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.main__list__elem_header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
